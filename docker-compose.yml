@@ -1,0 +1,6 @@
+services:
+  echo:
+    image: echo-server
+    build: ./
+    ports:
+      - "3000:3000"
